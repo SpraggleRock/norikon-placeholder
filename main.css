@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  background-image: radial-gradient(circle farthest-corner, rgba(149, 66, 125, 0.648) 10%, rgba(0, 0, 0, 0.7) 80%),
+  url(14655755794_36134c65ff_o.jpg);
+  background-size: auto, cover;
+  background-position: 25% 25%;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+a {
+  color: rgb(190, 190, 190);
+}
+
+.viewport {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  color: white;
+}
+
+.title {
+  margin: 0px;
+  font-size: 18vh;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+
+.year {
+  display: inline-block;
+  margin: 0px;
+  font-size: 12vh;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.subtitle {
+  display: inline-block;
+  margin: 0px;
+  font-size: 4vh;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer {
+  display: inline-block;
+  padding-top: 43px;
+  padding-bottom: 43px;
+  position: absolute;
+  bottom: 0;
+  font-size: 2vh;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: rgb(190, 190, 190);
+}
