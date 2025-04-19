@@ -34,6 +34,9 @@ a {
   justify-content: center;
   align-self: center;
   color: white;
+  @media only screen and (max-width: 640px) {
+    top: 10%;
+  }
 }
 
 .title {
